@@ -1,6 +1,30 @@
 </style><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX"],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: false
+  },
+  TeX: {
+    extensions: ["AMSmath.js", "AMSsymbols.js"],
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    equationNumbers: {
+      autoNumber: "AMS",
+    },
+    unicode: {
+      fonts: "STIXGeneral,'Arial Unicode MS'"
+    }
+  },
+  showProcessingMessages: false
+});
+</script>
 
-##Majorana费米子的?费曼规则
+## Majorana费米子的?费曼规则
 
 > 摘要：本文展示出一种适用Majorana粒子费曼规则的简单算法。通过在费米子线上穿过费曼图的费米子流，我们只需要熟悉的狄拉克传播函数和定点，而不需要显式的C变换矩阵。甚至，在狄拉克费米子的情况下我们会得到正确的____
 
